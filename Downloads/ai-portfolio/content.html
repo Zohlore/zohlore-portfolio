@@ -1,89 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎬 Zohlore Studios | AI Video & Prompt Engineering</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<section id="portfolio-work" class="max-w-7xl mx-auto px-6 py-24 reveal active" style="background-color: #0B0B1A;">
     
-    <style>
-        :root { --bg-dark: #0B0B1A; --accent-pink: #FF3366; --accent-cyan: #00D4FF; --text-white: #F0F0F0; }
-        body { background-color: var(--bg-dark); color: var(--text-white); font-family: 'Inter', sans-serif; margin: 0; overflow-x: hidden; }
-        .video-bg-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; overflow: hidden; background: linear-gradient(135deg, #0a0a2a 0%, #2a0a3a 100%); }
-        .video-bg-container video { min-width: 100%; min-height: 100%; width: auto; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); object-fit: cover; }
-        .video-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: linear-gradient(to bottom, rgba(11, 11, 26, 0.6), rgba(11, 11, 26, 0.95)); }
-        .btn-primary { background: var(--accent-pink); box-shadow: 0 0 20px rgba(255, 51, 102, 0.3); transition: all 0.3s ease; }
-        .btn-primary:hover { transform: scale(1.05); box-shadow: 0 0 30px var(--accent-pink); }
-        .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
-        .vertical-embed { position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; border-radius: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.5s ease; }
-        .vertical-embed:hover { transform: translateY(-15px); border-color: var(--accent-cyan); box-shadow: 0 0 30px rgba(0, 212, 255, 0.2); }
-        .vertical-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-    </style>
-</head>
-<body>
-
-    <div class="video-bg-container">
-        <video autoplay muted loop playsinline><source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"></video>
+    <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight text-white uppercase">
+            Recent Edits <span class="text-[#FF3366]">—</span> Real Client Work
+        </h2>
+        <p class="text-gray-400 text-lg md:text-xl font-medium">
+            30‑second samples that grew channels from zero
+        </p>
     </div>
-    <div class="video-overlay"></div>
 
-    <nav class="fixed top-0 w-full z-50 p-6 flex justify-between items-center bg-black/20 backdrop-blur-md border-b border-white/5">
-        <div class="text-xl font-extrabold tracking-tighter uppercase">ZOHLORE <span class="text-[#FF3366]">STUDIOS</span></div>
-        <div class="flex items-center space-x-6">
-            <a href="mailto:ataylo243@gmail.com" class="btn-primary text-xs font-bold uppercase px-6 py-2 rounded-full">Book a Call</a>
-        </div>
-    </nav>
-
-    <section class="min-h-screen flex items-center px-6 md:px-20">
-        <div class="max-w-7xl mx-auto">
-            <div class="reveal">
-                <h1 class="text-5xl md:text-8xl font-extrabold mb-6 tracking-tighter leading-tight">
-                    AI Visual <br> <span style="color: var(--accent-cyan)">Systems</span>
-                </h1>
-                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-xl">Combining prompt engineering with cinematic editing to double viewer retention.</p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="mailto:ataylo243@gmail.com" class="btn-primary px-8 py-4 rounded-xl font-bold">Start a Project</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="showreel" class="max-w-7xl mx-auto px-6 py-32 reveal">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter">Production Showcase</h2>
-            <p class="text-[#00D4FF] uppercase tracking-widest text-sm font-bold">From Prompt to Screen</p>
-        </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <div class="video-grid">
-            <div class="vertical-embed">
-                <iframe src="https://www.youtube.com/embed/E-0ZzZ3YlG0?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+        <div class="glass-card group relative bg-[#1E1E3A]/40 backdrop-blur-md border border-white/10 rounded-3xl p-4 transition-all duration-500 hover:-translate-y-2 hover:border-[#FF3366]/50">
+            <div class="relative aspect-[9/16] overflow-hidden rounded-2xl mb-6">
+                <div class="absolute inset-0 bg-[#FF3366]/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center pointer-events-none">
+                    <span class="bg-white text-black px-4 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-xl">Watch Now</span>
+                </div>
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/7u6Kpsi0fFo?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            
-            <div class="vertical-embed">
-                <iframe src="https://www.youtube.com/embed/xkIO2UYx2i0?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            
-            <div class="vertical-embed">
-                <iframe src="https://www.youtube.com/embed/6nbhtiVgR58?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+            <div class="px-2">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-[10px] font-black tracking-widest text-[#FF3366] uppercase">Zohlore</span>
+                    <span class="text-[10px] font-bold text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">+45% Retention</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Why Sith Crystals are Red</h3>
+                <p class="text-gray-400 text-xs font-medium">Lore Breakdown & Cinematic VFX</p>
             </div>
         </div>
-    </section>
 
-    <footer class="py-32 text-center border-t border-white/5">
-        <h2 class="text-4xl font-extrabold mb-8">Ready to Scale?</h2>
-        <a href="mailto:ataylo243@gmail.com" class="btn-primary px-12 py-5 rounded-2xl font-bold text-xl inline-block">Email ataylo243@gmail.com</a>
-        <p class="mt-20 text-[10px] text-gray-700 uppercase tracking-widest">&copy; 2026 Zohlore Studios.</p>
-    </footer>
+        <div class="glass-card group relative bg-[#1E1E3A]/40 backdrop-blur-md border border-white/10 rounded-3xl p-4 transition-all duration-500 hover:-translate-y-2 hover:border-[#FF3366]/50">
+            <div class="relative aspect-[9/16] overflow-hidden rounded-2xl mb-6">
+                <div class="absolute inset-0 bg-[#FF3366]/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center pointer-events-none">
+                    <span class="bg-white text-black px-4 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-xl">Watch Now</span>
+                </div>
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/E-0ZzZ3YlG0?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="px-2">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-[10px] font-black tracking-widest text-[#FF3366] uppercase">TheNeuroneer</span>
+                    <span class="text-[10px] font-bold text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">8.2K Views</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Father of Russian Literature</h3>
+                <p class="text-gray-400 text-xs font-medium">History Narrative & Pacing</p>
+            </div>
+        </div>
 
-    <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-    </script>
-</body>
-</html>
+        <div class="glass-card group relative bg-[#1E1E3A]/40 backdrop-blur-md border border-white/10 rounded-3xl p-4 transition-all duration-500 hover:-translate-y-2 hover:border-[#FF3366]/50">
+            <div class="relative aspect-[9/16] overflow-hidden rounded-2xl mb-6">
+                <div class="absolute inset-0 bg-[#FF3366]/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center pointer-events-none">
+                    <span class="bg-white text-black px-4 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-xl">Watch Now</span>
+                </div>
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/6nbhtiVgR58?modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="px-2">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-[10px] font-black tracking-widest text-[#FF3366] uppercase">TheNeuroneer</span>
+                    <span class="text-[10px] font-bold text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded-full">Viral Hook</span>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-1">Reset Your Brain</h3>
+                <p class="text-gray-400 text-xs font-medium">Fast-Paced Retention Editing</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-20 text-center">
+        <a href="https://youtube.com/@Zohlore" target="_blank" class="text-gray-400 hover:text-white transition-all font-bold text-sm uppercase tracking-widest flex items-center justify-center gap-2">
+            See full portfolio <i class="fa-solid fa-arrow-right text-[#FF3366]"></i>
+        </a>
+    </div>
+
+</section>
+
+<style>
+    .glass-card {
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    /* Ensure aspect ratio works in all browsers */
+    .aspect-\[9\/16\] {
+        aspect-ratio: 9 / 16;
+    }
+</style>
